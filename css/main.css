@@ -91,8 +91,6 @@ form{
 	padding: 2%;
 	width: 10%;
 	height: 10%;
-
-
 }
 
 .align{
@@ -118,3 +116,22 @@ span{
 	width: 80%;
 	padding: 1%;
 } 
+ .flowers:hover{
+
+    transform:scale(0.8);
+    -webkit-transform:scale(0.8); // Safari and Chrome 
+ 
+}
+
+
+.flor :hover{
+-webkit-transform:rotateZ (-30deg);
+-ms-transform:rotateZ (-30deg);
+transform:rotateZ (-30deg);
+}
+.black:hover{
+	background: fuchsia;
+	opacity: 0.6;
+	font-style: italic;
+	color:purple;
+}
